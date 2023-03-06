@@ -920,12 +920,25 @@ li.react-multi-carousel-item {
 		padding: 0 150px;
 	}
 }
+@media (min-width:990px) {
+  a.aPowerpoint {
+    display: none;
+  }
+}
+@media (max-width: 998px) {
+  iframe.iframePowerpoint {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   nav.navbar .navbar-nav .nav-link.navbar-link {
     align-self: flex-end !important;
   }
   .skill-soft {
     max-width: 100% !important;
+  }
+  iframe.iframePowerpoint {
+    display: none;
   }
 }
 /* ***************************************************************************** */

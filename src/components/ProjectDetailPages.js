@@ -104,7 +104,10 @@ export const ProjectDetailPage = ({
         </div>
         {/* Affichage d'une présentation PowerPoint sous forme d'iframe */}
         {ppointProject && (ppointProject.endsWith(".pdf") &&
-        <iframe title={altPpoint} width="100%" height="1500px" src={ppointProject}></iframe>
+        <div>
+          <a className="aPowerpoint" href={ppointProject} download={true}>Télécharger la présentation PowerPoint</a>
+          <iframe className="iframePowerpoint" title={altPpoint} width="100%" height="1500px" src={ppointProject}></iframe>
+        </div>
         )}
       </div>
       {/* Affichage des détails du projet avec liens vers le site ou le repo */}
