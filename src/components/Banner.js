@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/virtual-g965ef8905_1920.jpg";
+import softSkill1 from "../assets/img/icons8-chercher-94.png";
+import softSkill2 from "../assets/img/icons8-sablier-68.png";
+import softSkill3 from "../assets/img/icons8-les-gens-travaillent-ensemble-100.png";
+import softSkill4 from "../assets/img/icons8-administration-64.png";
+import softSkill5 from "../assets/img/icons8-salle-de-classe-100.png";
 import curriculumVitae from "../assets/img/curriculumVitae/Gaëtan-CV-V2.pdf"
 
 export const Banner = () => {
@@ -55,7 +60,7 @@ export const Banner = () => {
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className="align-items-coenter">
+                <Row className="align-items-center">
                     <Col className="bienvenue" xs={12} md={6} xl={7}>
                         <span className="tagLine">Bienvenue sur mon Portfolio</span>
                         <h1>{`Bonjour, je suis Gaëtan Rossignol`} <span className="wrap">{text}</span></h1>
@@ -63,9 +68,51 @@ export const Banner = () => {
                         <a href={curriculumVitae} title="Liens vers le curriculum vitae de Gaëtan Rossignol" className="curriculumVitae" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Img"/>
+                        <img className="animImgBanner" src={headerImg} alt="Header Img"/>
                     </Col>
                 </Row>
+                <div className="align-items-center spacingSoftSkill">
+                    <div class="row">
+                        <p>Soft Skills</p>
+                    </div>
+                    <div class="row">
+                        <div className="skill-soft wow zoomIn">
+                            <div>
+                                <img className="imgSoftSkill" src={softSkill1} alt="icone loupe"/>
+                                {/* <a target="_blank" href="https://icons8.com/icon/3DpvjII52KW6/chercher">Chercher</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
+                                <h3>Résolution de problèmes et Ouverture d'esprit</h3>
+                            </div>
+                        </div>
+                        <div className="skill-soft wow zoomIn">
+                            <div>
+                                <img className="imgSoftSkill" src={softSkill2} alt="icone sablier"/>
+                                {/* <a target="_blank" href="https://icons8.com/icon/vI7dV2QQrzUl/sablier">Sablier</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
+                                <h3>Patience et Persévérance</h3>
+                            </div>
+                        </div>
+                        <div className="skill-soft wow zoomIn">
+                            <div>
+                                <img className="imgSoftSkill" src={softSkill3} alt="icone travail d'équipe"/>
+                                {/* <a target="_blank" href="https://icons8.com/icon/ib8fvSIANhAz/les-gens-travaillent-ensemble">Les gens travaillent ensemble</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
+                                <h3>Esprit d'entraide et Esprit d'équipe</h3>
+                            </div>
+                        </div>
+                        <div className="skill-soft wow zoomIn">
+                            <div>
+                                <img className="imgSoftSkill" src={softSkill4} alt="icone organisation"/>
+                                {/* <a target="_blank" href="https://icons8.com/icon/n9oiQ8ZnTdmr/administration">Administration</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
+                                <h3>Capacité d'adaptation et Organisation</h3>
+                            </div>
+                        </div>
+                        <div className="skill-soft wow zoomIn">
+                            <div>
+                                <img className="imgSoftSkill" src={softSkill5} alt="icone apprentissage"/>
+                                {/* <a target="_blank" href="https://icons8.com/icon/3656/salle-de-classe">Salle de classe</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
+                                <h3>Curiosité et Soif d'apprendre</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </Container>
         </section>
     )

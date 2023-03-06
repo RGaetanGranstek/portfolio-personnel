@@ -139,18 +139,12 @@ nav.navbar a.navbar-brand {
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff !important;
   letter-spacing: 1.2px;
   padding: 0 7px;
-  font-size: 20px;
-  opacity: 0.75;
+  font-size: 25px;
   text-transform: uppercase;
   align-self: center;
   text-shadow: 4px 2px 2px #8a009cd3, 16px 14px 1em #461550a1, 4px 3px 0.2em rgb(0 0 2);
-}
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-  opacity: 1;
 }
 span.navbar-text {
   display: flex;
@@ -326,6 +320,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner h1 {
   font-size: 65px;
+  min-height: 195px;
   letter-spacing: 0.8px;
   line-height: 1;
   margin: 20px 0 20px 0;
@@ -357,11 +352,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 6s linear infinite;
   border-radius: 50%;
-  margin-top: 30px;
   padding: 10px;
+}
+.banner .imgSoftSkill {
+  width: 60px !important;
+  background-color: #ffffffe1;
+}
+.banner .animImgBanner {
+  margin-top: 30px;
   box-shadow: 0px -10px 30px #b9d;
+  animation: updown 6s linear infinite;
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
@@ -369,6 +370,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .curriculumVitae {
   text-decoration: inherit;
   font-size: xxx-large;
+}
+.skill-soft {
+  background-image: radial-gradient(circle, #ffffff00, #121212b6);
+  border-radius: 260px;
+  padding: 12px 10px;
+  margin: 40px 0 10px 0;
+  max-width: 50% !important;
+  text-align: center;
+}
+.skill-soft div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 4px 2px 2px #8a009cd3, 16px 14px 1em #461550a1, 4px 3px 0.2em rgb(0 0 2);
+}
+.skill-soft h3 {
+  margin-right: 8px;
+}
+.skill-soft:hover {
+  cursor: grab;
+  background-color: #121212;
+}
+.spacingSoftSkill {
+  margin-top: 20px !important;
+}
+.spacingSoftSkill p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Noto', sans-serif !important;
+  color: #FFFFFF;
+  text-shadow: 4px 2px 2px #8a009cd3, 16px 14px 1em #461550a1, 4px 3px 0.2em rgb(0 0 2);
 }
 /* ***************************************************************************** */
 /* 4: End Banner CSS */
@@ -887,6 +919,9 @@ li.react-multi-carousel-item {
 @media (max-width: 768px) {
   nav.navbar .navbar-nav .nav-link.navbar-link {
     align-self: flex-end !important;
+  }
+  .skill-soft {
+    max-width: 100% !important;
   }
 }
 /* ***************************************************************************** */
