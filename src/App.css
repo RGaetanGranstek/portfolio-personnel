@@ -940,6 +940,11 @@ li.react-multi-carousel-item {
   iframe.iframePowerpoint {
     display: none;
   }
+  .nav-link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 /* ***************************************************************************** */
 /* 10: End Media queries */
