@@ -369,7 +369,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .curriculumVitae {
   text-decoration: inherit;
-  font-size: xxx-large;
+  font-size: 3rem;
 }
 .skill-soft {
   background-image: radial-gradient(circle, #ffffff00, #121212b6);
