@@ -10,7 +10,7 @@ import Groupomania from './components/ProjectDetail/Groupomania';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
         <Routes >
           <Route exact path="/" element={<Home />} />
           <Route exact path="/ProjectDetail/Reservia" element={<Reservia />} />
