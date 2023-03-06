@@ -488,7 +488,7 @@ li.react-multi-carousel-item {
   height: 30px !important;
   --bs-progress-bg: none !important;
   background-image: radial-gradient(circle, #ffffff00, #12121275);
-  border-radius: 100px !important;
+  border-radius: 260px !important;
   margin: 5px auto;
 }
 .progress p {
@@ -497,13 +497,13 @@ li.react-multi-carousel-item {
 .progress-bar {
   width: 100%;
   --bs-progress-bar-bg: none;
-  overflow: hidden;
 }
 .skillProgress, .skillProgress1, .skillProgress2, .skillProgress3, .skillProgress4, .skillProgress5, .skillProgress6, .skillProgress7, .skillProgress8, .skillProgress9, .skillProgress10, .skillProgress11 {
   display: flex;
   z-index: 1;
   justify-content: space-between;
   align-items: center;
+  border-radius: 260px !important;
 }
 .skillProgress:hover, .skillProgress1:hover, .skillProgress2:hover, .skillProgress3:hover, .skillProgress4:hover, .skillProgress5:hover, .skillProgress6:hover, .skillProgress7:hover, .skillProgress8:hover, .skillProgress9:hover, .skillProgress10:hover, .skillProgress11:hover {
   cursor: grab;
