@@ -63,7 +63,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col className="bienvenue" xs={12} md={6} xl={7}>
                         <span className="tagLine">Bienvenue sur mon Portfolio</span>
-                        <h1>{`Bonjour, je suis Gaëtan Rossignol`} <span className="wrap">{text}</span></h1>
+                        <h1>{`Bonjour, je suis Gaëtan Rossignol`}<br></br><span className="wrap">{text}</span></h1>
                         <p>Je suis passionné par le développement web et j'ai travaillé dur pour acquérir une solide compréhension des technologies et des techniques de développement. Je suis en mesure de développer des sites web dynamiques utilisant les dernières technologies. Je suis également capable de travailler avec des bases de données.</p>
                         <a href={curriculumVitae} title="Liens vers le curriculum vitae de Gaëtan Rossignol" className="curriculumVitae" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
                     </Col>
