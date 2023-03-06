@@ -10,9 +10,9 @@ import Groupomania from './components/ProjectDetail/Groupomania';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes >
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/portfolio-personnel" element={<Home />} />
           <Route exact path="/ProjectDetail/Reservia" element={<Reservia />} />
           <Route exact path="/ProjectDetail/Ohmyfood" element={<Ohmyfood />} />
           <Route exact path="/ProjectDetail/Orinoco" element={<Orinoco />} />
