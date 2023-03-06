@@ -497,6 +497,7 @@ li.react-multi-carousel-item {
 .progress-bar {
   width: 100%;
   --bs-progress-bar-bg: none;
+  overflow: hidden;
 }
 .skillProgress, .skillProgress1, .skillProgress2, .skillProgress3, .skillProgress4, .skillProgress5, .skillProgress6, .skillProgress7, .skillProgress8, .skillProgress9, .skillProgress10, .skillProgress11 {
   display: flex;
