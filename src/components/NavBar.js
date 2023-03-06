@@ -42,7 +42,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         {/* Le composant Navbar.Brand contient un lien vers la page d'accueil et affiche le logo du site Web. */}
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/portfolio-personnel/">
           <img id="logo" src={logo} alt="Logo" />
         </Navbar.Brand>
         {/* Le composant Navbar.Toggle crée un bouton qui bascule l'affichage des liens de la barre de navigation sur les petits écrans. */}
@@ -54,7 +54,7 @@ export const NavBar = () => {
           <Nav id="basic-navbar-nav" className="navbar-nav mr-auto">
             {/* les composants Nav.Link créent des liens vers la page d'accueil et d'autres sections du site Web. Le nom de classe est défini sur "lien de barre de navigation actif" lorsque le lien est actuellement sélectionné. */}
             <Nav.Link
-              href="/#home"
+              href="/portfolio-personnel/#home"
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
@@ -65,7 +65,7 @@ export const NavBar = () => {
           {/* Les deux composants Nav.Link suivants ne seront affichés que si la page actuelle n'est pas la page d'accueil. */}
           {!isHomePage && (
             <Nav.Link
-              href="/#skills"
+              href="/portfolio-personnel/#skills"
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
@@ -76,7 +76,7 @@ export const NavBar = () => {
           )}
           {!isHomePage && (
             <Nav.Link
-              href="/#projects"
+              href="/portfolio-personnel/#projects"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
