@@ -142,8 +142,11 @@ export const ProjectDetailPage = ({
       <img className="imgMokeup" alt={altImg6} width="100%" height="auto" src={imgUrl6} />
       {/* Affichage des informations supplémentaires du projet, maquette */}
       {pdfMokeup && (pdfMokeup.endsWith(".pdf") &&
-      <iframe title={altPdf} width="100%" height="1500px" src={pdfMokeup}></iframe>
-      )}
+        <div>
+          <a className="aPowerpoint" href={pdfMokeup} download={true}>Télécharger le document PowerPoint</a>
+          <iframe className="iframePowerpoint" title={altPdf} width="100%" height="1500px" src={pdfMokeup}></iframe>
+        </div>
+        )}
     </Col>
   );
 };

@@ -6,7 +6,7 @@ import { Skills } from './Skills';
 import { Projects } from './Projects';
 import { Footer } from './Footer';
 import { Contact } from './Contact';
-// import { Presentation } from './Presentation';
+import { Presentation } from './Presentation';
 import React from "react";
 import ScrollToTopButton from "./scroll-to-top";
 
@@ -17,7 +17,7 @@ const Home = () => {
       <Banner />
       <Skills />
       <Projects />
-      {/* <Presentation /> */}
+      <Presentation />
       <Contact />
       <Footer />
       <ScrollToTopButton />

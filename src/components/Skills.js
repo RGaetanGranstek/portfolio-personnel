@@ -44,7 +44,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Compétences</h2>
+              <h2>Technologies</h2>
               <p>Back-End - Front-End</p>
               <Carousel
                 responsive={responsive}
@@ -106,6 +106,7 @@ export const Skills = () => {
             <div className="row row2">
               <div className="col-12">
                 {/* Afficher des barres de progression pour chaque technologie */}
+                <h3>Front-End</h3>
                 <div className="progress">
                   <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                     <span className="skillProgress">
@@ -123,21 +124,14 @@ export const Skills = () => {
                   </div>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                    <span className="skillProgress2">
-                      <p>&#x2605; Vue3</p>
-                      <i className="val">75%</i>
-                    </span>
-                  </div>
-                </div>
-                <div className="progress">
                   <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                    <span className="skillProgress3">
-                      <p>&#x2605; Git</p>
+                    <span className="skillProgress9">
+                      <p>&#x2605; JavaScript</p>
                       <i className="val">60%</i>
                     </span>
                   </div>
                 </div>
+                <h3>Back-End</h3>
                 <div className="progress">
                   <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                     <span className="skillProgress4">
@@ -147,6 +141,23 @@ export const Skills = () => {
                   </div>
                 </div>
                 <div className="progress">
+                  <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <span className="skillProgress6">
+                      <p>&#x2605; MongoDB</p>
+                      <i className="val">50%</i>
+                    </span>
+                  </div>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                    <span className="skillProgress10">
+                      <p>&#x2605; PHP</p>
+                      <i className="val">30%</i>
+                    </span>
+                  </div>
+                </div>
+                <h3>Framework</h3>
+                <div className="progress">
                   <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                     <span className="skillProgress5">
                       <p>&#x2605; Sass</p>
@@ -155,9 +166,17 @@ export const Skills = () => {
                   </div>
                 </div>
                 <div className="progress">
+                  <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <span className="skillProgress2">
+                      <p>&#x2605; Vue3</p>
+                      <i className="val">75%</i>
+                    </span>
+                  </div>
+                </div>
+                <div className="progress">
                   <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                    <span className="skillProgress6">
-                      <p>&#x2605; MongoDB</p>
+                    <span className="skillProgress11">
+                      <p>&#x2605; React</p>
                       <i className="val">50%</i>
                     </span>
                   </div>
@@ -178,27 +197,12 @@ export const Skills = () => {
                     </span>
                   </div>
                 </div>
+                <h3>Autre</h3>
                 <div className="progress">
                   <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                    <span className="skillProgress9">
-                      <p>&#x2605; JavaScript</p>
+                    <span className="skillProgress3">
+                      <p>&#x2605; Git</p>
                       <i className="val">60%</i>
-                    </span>
-                  </div>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                    <span className="skillProgress10">
-                      <p>&#x2605; PHP</p>
-                      <i className="val">30%</i>
-                    </span>
-                  </div>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar" title="barre de progression indiquant le niveau de maitrise de la compétence" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                    <span className="skillProgress11">
-                      <p>&#x2605; React</p>
-                      <i className="val">50%</i>
                     </span>
                   </div>
                 </div>

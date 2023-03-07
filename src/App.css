@@ -10,14 +10,15 @@
 /* 5: skills CSS */
 /* 6: Project CSS */
 /* 7: DetailPages CSS */
-/* 8: Contact Css */
-/* 9: Footer Css */
+/* 8: Presentation CSS */
+/* 9: Contact Css */
+/* 10: Footer Css */
 /* ***************************************************************************** */
 
 /* ***************************************************************************** */
-/* 10: Media queries */
-/* 11: Keyframes */
-/* 12: Scroll To Top */
+/* 11: Media queries */
+/* 12: Keyframes */
+/* 13: Scroll To Top */
 /* ***************************************************************************** */
 
 
@@ -836,7 +837,65 @@ li.react-multi-carousel-item {
 
 
 /* ***************************************************************************** */
-/* 8: Contact Css */
+/* 8: Presentation Css */
+/* ***************************************************************************** */
+.presentation {
+  padding: 80px;
+  margin-top: 0;
+  position: relative;
+  background-image: url('./assets/img/web-g5555df1e7_1920.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.presentation::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(to bottom, #121212, #ffffff00);
+}
+.presentation::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(to bottom, #ffffff00, #121212);
+}
+.presentation .presentationRow {
+  justify-content: space-between;
+}
+.presentation h2 {
+  font-size: 60px;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin: 20px 0 20px 0;
+  display: block;
+  font-family: 'Londrina', sans-serif !important;
+}
+.presentation p {
+  font-weight: 700;
+  font-size: 30px;
+  color: #B8B8B8;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-shadow: 4px 2px 2px #8a009cd3, 16px 14px 1em #461550a1, 4px 3px 0.2em rgb(0 0 2);
+}
+.presentationImg {
+  border-radius: 250px;
+}
+/* ***************************************************************************** */
+/* 8: Presentation Css */
+/* ***************************************************************************** */
+
+
+/* ***************************************************************************** */
+/* 9: Contact Css */
 /* ***************************************************************************** */
 .contact {
   padding-top: 80px;
@@ -887,12 +946,12 @@ li.react-multi-carousel-item {
   animation: arrowRotateUp 1s linear infinite;
 }
 /* ***************************************************************************** */
-/* 8: End Contact Css */
+/* 9: End Contact Css */
 /* ***************************************************************************** */
 
 
 /* ***************************************************************************** */
-/* 9: Footer Css */
+/* 10: Footer Css */
 /* ***************************************************************************** */
 .footer {
   padding: 80px 0 10px 0;
@@ -922,7 +981,7 @@ li.react-multi-carousel-item {
   margin-top: 20px;
 }
 /* ***************************************************************************** */
-/* 9: End Footer Css */
+/* 10: End Footer Css */
 /* ***************************************************************************** */
 
 
@@ -930,7 +989,7 @@ li.react-multi-carousel-item {
 
 
 /* ***************************************************************************** */
-/* 10: Media queries */
+/* 11: Media queries */
 /* ***************************************************************************** */
 @media (min-width:1700px) {
 	main .container {
@@ -941,11 +1000,18 @@ li.react-multi-carousel-item {
 @media (min-width:990px) {
   a.aPowerpoint {
     display: none;
+    font-family: 'Noto', sans-serif !important;
+    font-size: 25px;
   }
 }
 @media (max-width: 998px) {
   iframe.iframePowerpoint {
     display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .presentationRow {
+    justify-content: center !important;
   }
 }
 @media (max-width: 768px) {
@@ -965,12 +1031,12 @@ li.react-multi-carousel-item {
   }
 }
 /* ***************************************************************************** */
-/* 10: End Media queries */
+/* 11: End Media queries */
 /* ***************************************************************************** */
 
 
 /* ***************************************************************************** */
-/* 11: Keyframes */
+/* 12: Keyframes */
 /* ***************************************************************************** */
 @keyframes updown {
   0% {
@@ -1053,12 +1119,12 @@ li.react-multi-carousel-item {
   }
 }
 /* ***************************************************************************** */
-/* 11: End Keyframes */
+/* 12: End Keyframes */
 /* ***************************************************************************** */
 
 
 /* ***************************************************************************** */
-/* 12: Scroll To Top */
+/* 13: Scroll To Top */
 /* ***************************************************************************** */
 .scrollToTopButton {
   position: fixed;
@@ -1078,5 +1144,5 @@ li.react-multi-carousel-item {
   animation: arrowUp 1s linear infinite;
 }
 /* ***************************************************************************** */
-/* 12: End Scroll To Top */
+/* 13: End Scroll To Top */
 /* ***************************************************************************** */
