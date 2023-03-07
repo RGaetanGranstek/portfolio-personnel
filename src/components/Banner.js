@@ -72,10 +72,10 @@ export const Banner = () => {
                     </Col>
                 </Row>
                 <div className="align-items-center spacingSoftSkill">
-                    <div class="row">
+                    <div className="row">
                         <p>Soft Skills</p>
                     </div>
-                    <div class="row">
+                    <div className="row">
                         <div className="skill-soft wow zoomIn">
                             <div>
                                 <img className="imgSoftSkill" src={softSkill1} alt="icone loupe"/>

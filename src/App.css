@@ -839,7 +839,7 @@ li.react-multi-carousel-item {
 /* 8: Contact Css */
 /* ***************************************************************************** */
 .contact {
-  margin-bottom: 180px;
+  padding-top: 80px;
 }
 .contact h2 {
   font-size: 60px;
@@ -864,9 +864,27 @@ li.react-multi-carousel-item {
   border-radius: 6px;
   font-weight: 400;
   font-size: 40px;
-  margin-top: 20px;
   padding: 20px;
   font-family: 'Londrina', sans-serif !important;
+}
+.mailContact {
+  min-height: 260px;
+}
+.mailContact a {
+  align-items: center;
+}
+.mailImgContact {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  transform: rotate(90deg);
+  padding: 0 !important;
+}
+.imgContact {
+  display: block;
+  width: 100px;
+  height: 100px;
+  animation: arrowRotateUp 1s linear infinite;
 }
 /* ***************************************************************************** */
 /* 8: End Contact Css */
@@ -1009,6 +1027,28 @@ li.react-multi-carousel-item {
   }
   100% {
     transform: translateY(-8px);
+    padding: 0px;
+  }
+}
+@keyframes arrowRotateUp {
+  0% {
+    transform: translateX(-8px);
+    padding: 0px;
+  }
+  25% {
+    transform: translateX(0px);
+    padding: 0px;
+  }
+  50% {
+    transform: translateX(8px);
+    padding: 0px;
+  }
+  75% {
+    transform: translateX(0px);
+    padding: 0px;
+  }
+  100% {
+    transform: translateX(-8px);
     padding: 0px;
   }
 }
