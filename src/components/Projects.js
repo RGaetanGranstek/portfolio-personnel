@@ -83,7 +83,7 @@ export const Projects = () => {
                                 </Nav.Item>
                             </Nav>
                         {/* Contenu des onglets */}
-                        <Tab.Content>
+                        <Tab.Content xs={12} md={6} xl={7}>
                             {/* Contenu pour le premier groupe de projets */}
                             <Tab.Pane eventKey="first">
                             {/* Description des projets */}

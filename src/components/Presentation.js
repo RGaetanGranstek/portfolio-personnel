@@ -8,7 +8,7 @@ export const Presentation = () => {
             <Container>
                 <Row className="presentationRow">
                 <h2>Qui suis-je ?</h2>
-                <Col size={12} xl={6} className="text-center">
+                <Col xs={12} xl={6} className="text-center">
                     <div>
                         <p>Bonjour, je suis Gaëtan Rossignol, développeur web junior et créateur de sites internet.</p>
                         <p>Autodidacte et reconverti dans le numérique en 2021, j’ai commencé à m’auto-former sur les langages HTML, CSS et JS en formation LinkedIn et youtube.</p>
