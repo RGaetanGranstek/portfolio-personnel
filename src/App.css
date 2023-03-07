@@ -106,15 +106,6 @@ button {
   border: 0;
   background-color: transparent;
 }
-input:focus, textarea:focus, select:focus {
-  outline: none;
-}
-p.success {
-	color: green;
-}
-p.danger {
-	color: red;
-}
 /* ***************************************************************************** */
 /* 2: End Default CSS*/
 /* ***************************************************************************** */
@@ -136,7 +127,8 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 50%;
+  width: 50%;
+  min-width: 20%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -985,9 +977,6 @@ li.react-multi-carousel-item {
 /* ***************************************************************************** */
 
 
-
-
-
 /* ***************************************************************************** */
 /* 11: Media queries */
 /* ***************************************************************************** */
@@ -1004,7 +993,7 @@ li.react-multi-carousel-item {
     font-size: 25px;
   }
 }
-@media (max-width: 998px) {
+@media (max-width: 990px) {
   iframe.iframePowerpoint {
     display: none;
   }
@@ -1012,6 +1001,11 @@ li.react-multi-carousel-item {
 @media (max-width: 1200px) {
   .presentationRow {
     justify-content: center !important;
+  }
+  nav.navbar .navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 @media (max-width: 768px) {

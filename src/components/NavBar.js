@@ -62,51 +62,79 @@ export const NavBar = () => {
             >
               Accueil
             </Nav.Link>
-          {/* Les deux composants Nav.Link suivants ne seront affichés que si la page actuelle n'est pas la page d'accueil. */}
-          {!isHomePage && (
-            <Nav.Link
-              href="/portfolio-personnel/#skills"
-              className={
-                activeLink === "skills" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("skills")}
-            >
-              Compétences
-            </Nav.Link>
-          )}
-          {!isHomePage && (
-            <Nav.Link
-              href="/portfolio-personnel/#projects"
-              className={
-                activeLink === "projects" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("projects")}
-            >
-              Projets
-            </Nav.Link>
-          )}
-          {/* Le code suivant affiche les icônes des médias sociaux dans la barre de navigation. */}
-          <span className="navbar-text">
-            <div className="social-icon">
-              <a
-                href="https://github.com/RGaetanGranstek"
-                title="Liens vers la page github de gaëtan rossignol"
-                target="_blank"
-                rel="noopener noreferrer"
+            {/* Les deux composants Nav.Link suivants ne seront affichés que si la page actuelle n'est pas la page d'accueil. */}
+            {!isHomePage && (
+              <Nav.Link
+                href="/portfolio-personnel/#skills"
+                className={
+                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("skills")}
               >
-                <img src={github} alt="logo github" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/gaetan-rossignol-60024a174/"
-                title="Liens vers la page linkedin de gaëtan rossignol"
-                target="_blank"
-                rel="noopener noreferrer"
+                Compétences
+              </Nav.Link>
+            )}
+            {!isHomePage && (
+              <Nav.Link
+                href="/portfolio-personnel/#projects"
+                className={
+                  activeLink === "projects"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("projects")}
               >
-                <img src={linkedin} alt="logo linkedin" />
-              </a>
-            </div>
-          </span>
-        </Nav>
+                Projets
+              </Nav.Link>
+            )}
+            {!isHomePage && (
+              <Nav.Link
+                href="/portfolio-personnel/#presentation"
+                className={
+                  activeLink === "presentation"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("presentation")}
+              >
+                Presentation
+              </Nav.Link>
+            )}
+            {!isHomePage && (
+              <Nav.Link
+                href="/portfolio-personnel/#contact"
+                className={
+                  activeLink === "contact"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("contact")}
+              >
+                Contact
+              </Nav.Link>
+            )}
+            {/* Le code suivant affiche les icônes des médias sociaux dans la barre de navigation. */}
+            <span className="navbar-text">
+              <div className="social-icon">
+                <a
+                  href="https://github.com/RGaetanGranstek"
+                  title="Liens vers la page github de gaëtan rossignol"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={github} alt="logo github" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/gaetan-rossignol-60024a174/"
+                  title="Liens vers la page linkedin de gaëtan rossignol"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={linkedin} alt="logo linkedin" />
+                </a>
+              </div>
+            </span>
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

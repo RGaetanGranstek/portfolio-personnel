@@ -125,7 +125,7 @@ export const ProjectDetailPage = ({
             <iframe
               title={altImg}
               width="100%"
-              height="1500px"
+              height="1200px"
               src={imgUrl}
             ></iframe>
           )}
@@ -144,7 +144,7 @@ export const ProjectDetailPage = ({
       {pdfMokeup && (pdfMokeup.endsWith(".pdf") &&
         <div>
           <a className="aPowerpoint" href={pdfMokeup} download={true}>Télécharger le document PowerPoint</a>
-          <iframe className="iframePowerpoint" title={altPdf} width="100%" height="1500px" src={pdfMokeup}></iframe>
+          <iframe className="iframePowerpoint" title={altPdf} width="100%" height="1200px" src={pdfMokeup}></iframe>
         </div>
         )}
     </Col>

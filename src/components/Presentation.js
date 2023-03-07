@@ -4,7 +4,7 @@ import meImg from "../assets/img/GaetanRossignol.jpg";
 export const Presentation = () => {
 
     return (
-        <section className="presentation" id="#">
+        <section className="presentation" id="presentation">
             <Container>
                 <Row className="presentationRow">
                 <h2>Qui suis-je ?</h2>
