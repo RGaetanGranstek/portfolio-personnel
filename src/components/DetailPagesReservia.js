@@ -88,7 +88,7 @@ export const DetailPagesReservia = () => {
             imgUrl: 'https://rgaetangranstek.github.io/RossignolGaetan_2_01072021/',
             altImg: `Page d'acceuil du site Reservia`,
             linkSite: 'https://rgaetangranstek.github.io/RossignolGaetan_2_01072021/',
-            linkProjectDetail: "/ProjectDetail/Reservia"
+            linkProjectDetail: "/portfolio-personnel/ProjectDetail/Reservia"
         }],
       ];
 

@@ -61,7 +61,7 @@ export const DetailPagesLaChouetteAgence = () => {
             imgUrl: 'https://rgaetangranstek.github.io/RossignolGaetan_4_23082021/',
             altImg: `Page d'acceuil du site La Chouette Agence`,
             linkSite: 'https://rgaetangranstek.github.io/RossignolGaetan_4_23082021/',
-            linkProjectDetail: "/ProjectDetail/LaChouetteAgence"
+            linkProjectDetail: "/portfolio-personnel/ProjectDetail/LaChouetteAgence"
         }],
       ];
 

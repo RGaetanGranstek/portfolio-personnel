@@ -13,12 +13,12 @@ function App() {
     <BrowserRouter>
         <Routes >
           <Route exact path="/portfolio-personnel/" element={<Home />} />
-          <Route exact path="/ProjectDetail/Reservia" element={<Reservia />} />
-          <Route exact path="/ProjectDetail/Ohmyfood" element={<Ohmyfood />} />
-          <Route exact path="/ProjectDetail/Orinoco" element={<Orinoco />} />
-          <Route exact path="/ProjectDetail/Piiquante" element={<Piiquante />} />
-          <Route exact path="/ProjectDetail/LaChouetteAgence" element={<LaChouetteAgence />} />
-          <Route exact path="/ProjectDetail/Groupomania" element={<Groupomania />} />
+          <Route exact path="/portfolio-personnel/ProjectDetail/Reservia" element={<Reservia />} />
+          <Route exact path="/portfolio-personnel/ProjectDetail/Ohmyfood" element={<Ohmyfood />} />
+          <Route exact path="/portfolio-personnel/ProjectDetail/Orinoco" element={<Orinoco />} />
+          <Route exact path="/portfolio-personnel/ProjectDetail/Piiquante" element={<Piiquante />} />
+          <Route exact path="/portfolio-personnel/ProjectDetail/LaChouetteAgence" element={<LaChouetteAgence />} />
+          <Route exact path="/portfolio-personnel/ProjectDetail/Groupomania" element={<Groupomania />} />
         </Routes>
     </BrowserRouter>
   );

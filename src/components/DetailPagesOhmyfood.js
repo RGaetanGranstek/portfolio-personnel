@@ -90,7 +90,7 @@ export const DetailPagesOhmyfood = () => {
             imgUrl: 'https://rgaetangranstek.github.io/RossignolGaetan_3_25072021/',
             altImg: `Page d'acceuil du site Ohmyfood`,
             linkSite: 'https://rgaetangranstek.github.io/RossignolGaetan_3_25072021/',
-            linkProjectDetail: "/ProjectDetail/Ohmyfood"
+            linkProjectDetail: "/portfolio-personnel/ProjectDetail/Ohmyfood"
         }],
       ];
 

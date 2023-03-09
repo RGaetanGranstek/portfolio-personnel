@@ -84,7 +84,7 @@ export const DetailPagesPiiquante = () => {
             imgUrl: webfactory,
             altImg: `Page d'acceuil du site Piiquante`,
             linkSite: 'https://github.com/RGaetanGranstek/RossignolGaetan_6_21102021',
-            linkProjectDetail: "/ProjectDetail/Piiquante"
+            linkProjectDetail: "/portfolio-personnel/ProjectDetail/Piiquante"
         }],
       ];
 

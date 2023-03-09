@@ -14,7 +14,7 @@ export const Projects = () => {
           imgUrl: 'https://rgaetangranstek.github.io/RossignolGaetan_2_01072021/',
           altImg: `Page d'acceuil du site Reservia`,
           linkSite: 'https://rgaetangranstek.github.io/RossignolGaetan_2_01072021/',
-          linkProjectDetail: "/ProjectDetail/Reservia"
+          linkProjectDetail: "/portfolio-personnel/ProjectDetail/Reservia"
         },
         {
           title: "Ohmyfood",
@@ -22,7 +22,7 @@ export const Projects = () => {
           imgUrl: 'https://rgaetangranstek.github.io/RossignolGaetan_3_25072021/',
           altImg: `Page d'acceuil du site Ohmyfood`,
           linkSite: 'https://rgaetangranstek.github.io/RossignolGaetan_3_25072021/',
-          linkProjectDetail: "/ProjectDetail/Ohmyfood"
+          linkProjectDetail: "/portfolio-personnel/ProjectDetail/Ohmyfood"
         }],
         [{
           title: "La chouette agence",
@@ -30,7 +30,7 @@ export const Projects = () => {
           imgUrl: 'https://rgaetangranstek.github.io/RossignolGaetan_4_23082021/',
           altImg: `Page d'acceuil du site La chouette agence`,
           linkSite: 'https://rgaetangranstek.github.io/RossignolGaetan_4_23082021/',
-          linkProjectDetail: "/ProjectDetail/LaChouetteAgence"
+          linkProjectDetail: "/portfolio-personnel/ProjectDetail/LaChouetteAgence"
         },
         {
           title: "Orinoco",
@@ -38,7 +38,7 @@ export const Projects = () => {
           imgUrl: webfactory,
           altImg: `Page d'acceuil du site Orinoco`,
           linkSite: `https://github.com/RGaetanGranstek/RossignolGaetan_5_19092021`,
-          linkProjectDetail: "/ProjectDetail/Orinoco"
+          linkProjectDetail: "/portfolio-personnel/ProjectDetail/Orinoco"
         }],
         [{
           title: "Piiquante",
@@ -46,7 +46,7 @@ export const Projects = () => {
           imgUrl: webfactory,
           altImg: `Page d'acceuil du site Piiquante`,
           linkSite: `https://github.com/RGaetanGranstek/RossignolGaetan_6_21102021`,
-          linkProjectDetail: "/ProjectDetail/Piiquante"
+          linkProjectDetail: "/portfolio-personnel/ProjectDetail/Piiquante"
         },
         {
           title: "Groupomania",
@@ -54,7 +54,7 @@ export const Projects = () => {
           imgUrl: webfactory,
           altImg: `Page d'acceuil du site Groupomania`,
           linkSite: `https://github.com/RGaetanGranstek/RossignolGaetan_7_23022022`,
-          linkProjectDetail: "/ProjectDetail/Groupomania"
+          linkProjectDetail: "/portfolio-personnel/ProjectDetail/Groupomania"
         }],
       ];
       

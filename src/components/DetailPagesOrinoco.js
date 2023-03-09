@@ -71,7 +71,7 @@ export const DetailPagesOrinoco = () => {
             imgUrl: webfactory,
             altImg: `Page d'acceuil du site Orinoco`,
             linkSite: 'https://github.com/RGaetanGranstek/RossignolGaetan_5_19092021',
-            linkProjectDetail: "/ProjectDetail/Orinoco"
+            linkProjectDetail: "/portfolio-personnel/ProjectDetail/Orinoco"
         }],
       ];
 

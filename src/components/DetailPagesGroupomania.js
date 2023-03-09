@@ -50,7 +50,7 @@ export const DetailPagesGroupomania = () => {
             imgUrl: webfactory,
             altImg: `Page d'acceuil du site Groupomania`,
             linkSite: 'https://github.com/RGaetanGranstek/RossignolGaetan_7_23022022',
-            linkProjectDetail: "/ProjectDetail/Groupomania"
+            linkProjectDetail: "/portfolio-personnel/ProjectDetail/Groupomania"
         }],
       ];
 
