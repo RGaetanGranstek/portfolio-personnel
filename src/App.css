@@ -766,14 +766,16 @@ li.react-multi-carousel-item {
 .detailPages-imgbx2 h3, .detailPages-imgbx3 h3 {
   font-size: 2.5rem;
   text-align: center;
+  font-family: 'Londrina', sans-serif !important;
 }
 .detailPages-imgbx2 h4, .detailPages-imgbx3 h4 {
-  font-size: 1.75rem;
+  font-size: 2.2rem;
   padding-left: 5%;
+  color: #329D03 !important;
+
 }
 .detailPages-imgbx2 h3, .detailPages-imgbx2 h4, .detailPages-imgbx3 h3, .detailPages-imgbx3 h4 {
   color: #ffffff;
-  font-family: 'Londrina', sans-serif !important;
 }
 .imgMokeup {
   width: 20% !important;
