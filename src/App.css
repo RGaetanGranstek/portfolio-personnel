@@ -19,6 +19,7 @@
 /* 11: Media queries */
 /* 12: Keyframes */
 /* 13: Scroll To Top */
+/* 14: ScrollBar */
 /* ***************************************************************************** */
 
 
@@ -1144,4 +1145,29 @@ li.react-multi-carousel-item {
 }
 /* ***************************************************************************** */
 /* 13: End Scroll To Top */
+/* ***************************************************************************** */
+
+
+/* ***************************************************************************** */
+/* 14: ScrollBar */
+/* ***************************************************************************** */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* défini la couleur de fond de la barre */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+/* défini la couleur de la barre */
+::-webkit-scrollbar-thumb {
+  background-color: #319d03a6;
+  border: 2px solid #5FD517;
+  border-radius: 25px;
+}
+/* défini la couleur de survol de la barre */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5FD517;
+}
+/* ***************************************************************************** */
+/* 14: End ScrollBar */
 /* ***************************************************************************** */
