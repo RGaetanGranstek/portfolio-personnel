@@ -31,12 +31,12 @@ export const NavBar = () => {
 
   // Détermine si la page active est la page d’accueil en vérifiant le chemin d’accès actuel par rapport à plusieurs pages de détails du projet. Le résultat de cette vérification est stocké dans la constante isHomePage, ce qui sera vrai si la page active est l’une des pages de détail du projet et false dans le cas contraire.
   const isHomePage =
-    location.pathname === "/ProjectDetail/Reservia" ||
-    location.pathname === "/ProjectDetail/Ohmyfood" ||
-    location.pathname === "/ProjectDetail/Orinoco" ||
-    location.pathname === "/ProjectDetail/Piiquante" ||
-    location.pathname === "/ProjectDetail/LaChouetteAgence" ||
-    location.pathname === "/ProjectDetail/Groupomania";
+    location.pathname === "/portfolio-personnel/ProjectDetail/Reservia" ||
+    location.pathname === "/portfolio-personnel/ProjectDetail/Ohmyfood" ||
+    location.pathname === "/portfolio-personnel/ProjectDetail/Orinoco" ||
+    location.pathname === "/portfolio-personnel/ProjectDetail/Piiquante" ||
+    location.pathname === "/portfolio-personnel/ProjectDetail/LaChouetteAgence" ||
+    location.pathname === "/portfolio-personnel/ProjectDetail/Groupomania";
 
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
