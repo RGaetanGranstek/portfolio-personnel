@@ -372,7 +372,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 260px;
   padding: 12px 10px;
   margin: 40px 0 10px 0;
-  max-width: 48% !important;
+  max-width: 49% !important;
   text-align: center;
 }
 .skill-soft div {
@@ -956,6 +956,7 @@ li.react-multi-carousel-item {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  text-shadow: 4px 2px 2px #8a009cd3, 16px 14px 1em #461550a1, 4px 3px 0.2em rgb(0 0 2);
 }
 .footer::before {
   content: '';
