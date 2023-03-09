@@ -75,7 +75,7 @@ export const Banner = () => {
                     <div className="row">
                         <p>Soft Skills</p>
                     </div>
-                    <div className="row">
+                    <div className="row rowSkills">
                         <div className="skill-soft wow zoomIn">
                             <div>
                                 <img className="imgSoftSkill" src={softSkill1} alt="icone loupe"/>

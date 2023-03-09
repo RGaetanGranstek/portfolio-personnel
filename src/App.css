@@ -364,12 +364,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: inherit;
   font-size: 3rem;
 }
+.rowSkills {
+  justify-content: space-around;
+}
 .skill-soft {
   background-image: radial-gradient(circle, #ffffff00, #121212b6);
   border-radius: 260px;
   padding: 12px 10px;
   margin: 40px 0 10px 0;
-  max-width: 50% !important;
+  max-width: 48% !important;
   text-align: center;
 }
 .skill-soft div {
