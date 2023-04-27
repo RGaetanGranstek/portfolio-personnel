@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import github from "../assets/img/github.svg";
 import linkedin from "../assets/img/linkedin.svg";
-import curriculumVitae from "../assets/img/curriculumVitae/Gaëtan-CV-V2.pdf";
+import curriculumVitae from "../assets/img/curriculumVitae/Gaëtan-CV-V3.pdf";
 
 export const Footer = () => {
   return (

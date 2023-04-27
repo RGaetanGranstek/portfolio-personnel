@@ -6,7 +6,7 @@ import softSkill2 from "../assets/img/icons8-sablier-68.png";
 import softSkill3 from "../assets/img/icons8-les-gens-travaillent-ensemble-100.png";
 import softSkill4 from "../assets/img/icons8-administration-64.png";
 import softSkill5 from "../assets/img/icons8-salle-de-classe-100.png";
-import curriculumVitae from "../assets/img/curriculumVitae/Gaëtan-CV-V2.pdf"
+import curriculumVitae from "../assets/img/curriculumVitae/Gaëtan-CV-V3.pdf"
 
 export const Banner = () => {
     // Variables d'état pour gérer l'animation du texte
