@@ -20,8 +20,8 @@ export const Contact = () => {
               <img className="imgContact" src={arrowGreen} alt="Arrow Green Img"/>
             </div>
             <div className="mailContact" align="center">
-              <a href="mailto:xynfsu-granstek@live.fr" title="Envoyer un email à Gaëtan Rossignol">
-                xynfsu-granstek@live.fr
+              <a href="mailto:Gaetan.Rossignol@outlook.fr" title="Envoyer un email à Gaëtan Rossignol">
+                Gaetan.Rossignol@outlook.fr
               </a>
             </div>
           </Col>
