@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-personnel/static/css/main.64bed1b7.css",
-    "main.js": "/portfolio-personnel/static/js/main.e60a6777.js",
+    "main.css": "/portfolio-personnel/static/css/main.839e8221.css",
+    "main.js": "/portfolio-personnel/static/js/main.a0452af2.js",
     "static/js/787.a59af871.chunk.js": "/portfolio-personnel/static/js/787.a59af871.chunk.js",
     "static/media/P4_03_rapport_optimisation.xlsx": "/portfolio-personnel/static/media/P4_03_rapport_optimisation.1cc281ecdb3586b49092.xlsx",
     "static/media/GaetanRossignol.jpg": "/portfolio-personnel/static/media/GaetanRossignol.fcd6b29aefeb334808dd.jpg",
@@ -25,7 +25,7 @@
     "static/media/maquette-reservia-768x1005.png": "/portfolio-personnel/static/media/maquette-reservia-768x1005.dc6e19daf3593efe5bd1.png",
     "static/media/P5_Spécifications+fonctionnelles+Orinoco.pdf": "/portfolio-personnel/static/media/P5_Spécifications+fonctionnelles+Orinoco.b3120c805ff2fcb66a6a.pdf",
     "static/media/DancingScript-VariableFont_wght.ttf": "/portfolio-personnel/static/media/DancingScript-VariableFont_wght.3e7e73f4e34e4945f363.ttf",
-    "static/media/Gaëtan-CV-V2.pdf": "/portfolio-personnel/static/media/Gaëtan-CV-V2.0b30ff7cc52a048f6a0c.pdf",
+    "static/media/Gaëtan-CV-V3.pdf": "/portfolio-personnel/static/media/Gaëtan-CV-V3.0e827af70c666f1bd4bf.pdf",
     "static/media/Brief-créatif-Ohmyfood.pdf": "/portfolio-personnel/static/media/Brief-créatif-Ohmyfood.b1253bbd7799fae77173.pdf",
     "static/media/web-g5555df1e7_1920.jpg": "/portfolio-personnel/static/media/web-g5555df1e7_1920.fc59ec0146b97c4f615f.jpg",
     "static/media/Logo.jpg": "/portfolio-personnel/static/media/Logo.ea8b769c32e9f2d87df1.jpg",
@@ -50,12 +50,12 @@
     "static/media/HTML5_logo_and_wordmark.svg": "/portfolio-personnel/static/media/HTML5_logo_and_wordmark.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
     "static/media/linkedin.svg": "/portfolio-personnel/static/media/linkedin.e6caf06bea36e8c1fd7545706cd71c86.svg",
     "static/media/Vue.js_Logo_2.svg": "/portfolio-personnel/static/media/Vue.js_Logo_2.f1fd23be1db9361fbcd81511fe862b08.svg",
-    "main.64bed1b7.css.map": "/portfolio-personnel/static/css/main.64bed1b7.css.map",
-    "main.e60a6777.js.map": "/portfolio-personnel/static/js/main.e60a6777.js.map",
+    "main.839e8221.css.map": "/portfolio-personnel/static/css/main.839e8221.css.map",
+    "main.a0452af2.js.map": "/portfolio-personnel/static/js/main.a0452af2.js.map",
     "787.a59af871.chunk.js.map": "/portfolio-personnel/static/js/787.a59af871.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64bed1b7.css",
-    "static/js/main.e60a6777.js"
+    "static/css/main.839e8221.css",
+    "static/js/main.a0452af2.js"
   ]
 }
